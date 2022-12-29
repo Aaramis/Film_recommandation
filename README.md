@@ -38,3 +38,8 @@ Both my notebooks are available as kernels with this dataset: [The Story of Film
 Some of the things you can do with this dataset:
 Predicting movie revenue and/or movie success based on a certain metric. What movies tend to get higher vote counts and vote averages on TMDB? Building Content Based and Collaborative Filtering Based Recommendation Engines.
 
+## Evaluation
+
+The job is to predict the international box office revenue for each movie. For each id in the test set, you must predict the value of the revenue variable. 
+
+Submissions are evaluated on Root-Mean-Squared-Logarithmic-Error (RMSLE) between the predicted value and the actual revenue. Logs are taken to not overweight blockbuster revenue movies. 
